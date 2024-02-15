@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5eb;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-image: url("https://images.pexels.com/photos/16247122/pexels-photo-16247122/free-photo-of-painting-of-a-table-next-to-window.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  	background-repeat: no-repeat;
+  	background-size: cover; 
+  	padding: 80px 150px; 
+  	color: #FFFFF0; 
+    text-align: center;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #988558;
+    padding: 20px;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+
+.photo-container {
+    background-color: #fff;
+    border: 10px solid #f8d9a3;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.photo-container img {
+    max-width: 100%;
+    max-height: 300px; 
+    display: block;
+    margin: 0 auto;
+}
+
+
+.photo-description {
+    text-align: center;
+    font-size: 18px;
+    width: 350px;
+    margin: 20px auto 40px;
+    font-family: 'Cutive Mono', monospace;
+}
+
+
+.form-container {
+  	position: fixed;
+  	bottom: 20px;
+  	right: 20px;
+  	background-color: rgba(255, 255, 255, 0.8);
+    max-width: 400px;
+  	padding: 20px ;
+  	border-radius: 10px;
+  	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  	transition: all 0.3s ease;
+}
+
+
+#minimizeBtn, #maximizeBtn {
+  	position: absolute;
+  	top: 6px;
+  	right: 10px;
+  	background: #f8d9a3;
+    width: 30px;
+  	border: none;
+  	cursor: pointer;
+  	font-size: 18px;
+  	line-height: 1;
+    color: #777;
+}
+
+
+#maximizeBtn {
+  	top: 30px;
+}
+
+
+.input-field {
+    width: 100%;
+    margin: 0px 0px 20px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
+#characterCount {
+    font-size: 12px;
+    color: #777;
+    float: right;
+    margin-top: -8px;
+}
+
+
+#addButton {
+    background-color: #453f3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+#addButton:hover {
+    background-color: #5a534e;
+}
+
+
+footer {
+  clear: both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #393C48; 
+  height: 140px;
+  color: white;
+  font-weight: bold;
+  font-size: 14pt;
+}
